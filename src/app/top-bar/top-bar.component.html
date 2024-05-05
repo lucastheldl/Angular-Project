@@ -1,11 +1,1 @@
 <p>top-bar works!</p>
-<div *ngFor="let product of products">
-  <h3>
-    <a [title]="product.name + ' details'">
-      {{ product.name }}
-    </a>
-  </h3>
-  <p *ngIf="product.description">Description: {{ product.description }}</p>
-  <h2>{{ product.price }}</h2>
-  <button type="button" (click)="share()">Share</button>
-</div>

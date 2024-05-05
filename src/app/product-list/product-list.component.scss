@@ -1,0 +1,27 @@
+.product-List {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1rem;
+
+  max-width: 250px;
+  min-width: 250px;
+}
+
+.share-btn {
+  padding: 1rem;
+  background-color: rgb(85, 169, 248);
+
+  border: none;
+  font-weight: bold;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
